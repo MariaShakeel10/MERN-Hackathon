@@ -89,7 +89,7 @@ const TaskBoard = () => {
         });
       })
       .catch((err) => {
-        console.error("Failed to update task:", err);
+        console.error("Failed to update tasks:", err);
       });
   };
 
